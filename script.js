@@ -1,7 +1,7 @@
 //setting up buttons
 //timer
 //setting up the variables
-//high score, results
+
 var timer = document.getElementById("timer");
 
 var scores = document.getElementById("scores");
@@ -17,8 +17,9 @@ var question = document.getElementById("questions");
 var results = document.getElementById("results");
 var choices = document.getElementById("choices");
 
-var storedArray = JSON.parse(window.localStorage.getItem("highScore"));
-var storedArray = JSON.parse(window.localStorage.getItem('lowScore'));
+//high score, results
+var Array1 = JSON.parse(window.localStorage.getItem("highScore"));
+var Array2 = JSON.parse(window.localStorage.getItem('lowScore'));
 var questionCount = 0;
 var score = 0
 
@@ -26,3 +27,5 @@ var score = 0
 function(secondsLeft){
     setTime
 }
+//function for scoore
+function(storedArray)
