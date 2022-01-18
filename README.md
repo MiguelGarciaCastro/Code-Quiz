@@ -21,3 +21,8 @@ When an question is answered incorrectly, ten second is subtracted from the cloc
 When all questions are answered or the clock reaches 0, the game is over.
 
 Once the game is over the user can save their initials and high score.
+
+
+<img width="1792" alt="Screen Shot 2022-01-18 at 4 37 03 PM" src="https://user-images.githubusercontent.com/87445858/150022654-e94c69dc-fc85-46da-8002-3b7d11a04235.png">
+
+Author --> Miguel Garcia
